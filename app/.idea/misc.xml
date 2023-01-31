@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/drawable-v24/ic_camera.xml" value="0.1" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/drawable-v24/ic_more_vert_black_12.xml" value="0.1" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/drawable-v24/ic_more_vert_black_24.xml" value="0.1" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/drawable-v24/ic_select_true_check.xml" value="0.1" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/drawable/bg_photo.xml" value="0.1" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/drawable/ic___logo.xml" value="0.2" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/drawable/ic_fill_myinfo.xml" value="0.197" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/drawable/ic_outline_myinfo.xml" value="0.197" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/drawable/ic_pencil_icon.xml" value="0.197" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/drawable/ic_reaction_chat.xml" value="0.1225" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/layout/activity_main.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/layout/fragment_community.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/layout/fragment_community__write_.xml" value="0.264" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/layout/fragment_main_community.xml" value="0.1" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/layout/fragment_main_resell.xml" value="0.264" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/layout/fragment_my_info.xml" value="0.1875" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/layout/fragment_resell__write_.xml" value="0.264" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/layout/item_image.xml" value="0.4" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/layout/item_sale.xml" value="0.16" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/layout/view_reaction.xml" value="0.171875" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/menu/bottom_menu.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/kamja/Documents/GitHub/DOGO-ANDROID/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
