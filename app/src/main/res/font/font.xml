@@ -4,12 +4,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <!--regular-->
-    <font
-        android:font="@font/nanumbarunpenregular"
-        android:fontStyle="normal"
-        android:fontWeight="400"
-        app:font="@font/noto_sans"
-        app:fontStyle="normal"
-        app:fontWeight="500" />
+<!--    <font-->
+<!--        android:font="@font/nanumbarunpenregular"-->
+<!--        android:fontStyle="normal"-->
+<!--        android:fontWeight="400"-->
+<!--        app:font="@font/noto_sans"-->
+<!--        app:fontStyle="normal"-->
+<!--        app:fontWeight="500" />-->
 
 </font-family>

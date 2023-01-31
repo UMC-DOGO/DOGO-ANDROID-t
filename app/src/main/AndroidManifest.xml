@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DOGO"
         tools:targetApi="31" >
+
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Splash"
@@ -22,11 +23,20 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+        <activity android:name=".StartActivity"/>
+        <activity android:name=".sign.JoinActivity"/>
+        <activity android:name=".sign.SetupActivity"/>
+        <activity android:name=".sign.LoginActivity"/>
+        <activity android:name=".sign.ConsentActivity"/>
+
+        <activity android:name=".chatting.ChattingRoomActivity"/>
+        <activity android:name=".chatting.UserprofileActivity"/>
+
     </application>
 
 </manifest>
