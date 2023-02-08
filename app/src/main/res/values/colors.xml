@@ -8,7 +8,7 @@
 
     <color name="greenery">#90B54C</color>
     <color name="light_gray">#CCCCCC</color>
-<!--    <color name="gray">#868E96</color>-->
+    <color name="gray">#868E96</color>
     <color name="divider_gray">#CFD5DB</color>
     <color name="count_gray">#4B5158</color>
     <color name="default_profile">#DDE1E6</color>
@@ -22,11 +22,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="main_color">#ffd639</color>
-
-    //custom
-    <color name="main">#FFD639</color>
-    <color name="sub">#FFEFB4</color>
-    <color name="gray">#D9D9D9</color>
-    <color name="font">#333333</color>
 
 </resources>
