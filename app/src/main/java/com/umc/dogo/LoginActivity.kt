@@ -3,12 +3,12 @@ package com.umc.dogo
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-class StartActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_start)
+        setContentView(R.layout.activity_login)
 
 
-    }
+
 }
