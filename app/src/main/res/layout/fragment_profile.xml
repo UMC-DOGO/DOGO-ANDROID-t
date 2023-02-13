@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:id="@+id/cst_profile">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="9dp"
+        android:background="@android:color/white"
+        android:src="@drawable/profile_icon"
+        app:civ_border_color="#000000"
+        app:civ_border_width="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/cst_introduce"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cst_appbar" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_edit"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="42dp"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/edit"
+        app:civ_border_color="#000000"
+        app:civ_border_width="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cst_appbar" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"
+        android:text="umc"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:letterSpacing="-0.03"
+        android:lineSpacingExtra="2sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cst_appbar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cst_introduce"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/introduce_box"
+        app:layout_constraintBottom_toTopOf="@+id/cst_location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_name">
+
+        <EditText
+            android:id="@+id/et_itd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@null"
+            android:hint="한줄 소개 입니다"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:letterSpacing="-0.03"
+            android:lineSpacingExtra="7sp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cst_location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_stroke"
+        app:layout_constraintBottom_toTopOf="@+id/cst_owner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cst_introduce">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_location"
+            android:layout_width="180dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginBottom="9dp"
+            android:background="@drawable/btn_select"
+            android:text="등록 하기"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_location" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="48dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="11dp"
+            android:text="거주지"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:letterSpacing="-0.03"
+            android:lineSpacingExtra="6sp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_location"
+            app:layout_constraintStart_toEndOf="@id/iv_location"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="9dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_location"
+            app:layout_constraintEnd_toStartOf="@+id/tv_location"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/address" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cst_owner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_stroke"
+        app:layout_constraintBottom_toTopOf="@id/cst_dog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cst_location">
+
+        <TextView
+            android:id="@+id/tv_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="11dp"
+            android:text="주인 정보"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:letterSpacing="-0.03"
+            android:lineSpacingExtra="6sp"
+            app:layout_constraintBottom_toTopOf="@+id/et_age"
+            app:layout_constraintStart_toEndOf="@id/iv_owner"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/sp_sex"
+            android:layout_width="67dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginBottom="9dp"
+            android:background="@drawable/btn_select"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/et_age"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_age"
+            android:layout_width="69dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="9dp"
+            android:hint="나이"
+            android:maxLength="3"
+            android:maxLines="1"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:letterSpacing="-0.04"
+            android:lineSpacingExtra="8sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@drawable/btn_select"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sp_sex"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@id/tv_owner" />
+
+        <ImageView
+            android:id="@+id/iv_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintBottom_toTopOf="@+id/et_age"
+            app:layout_constraintEnd_toStartOf="@+id/tv_owner"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/owner" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cst_dog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_stroke"
+        app:layout_constraintBottom_toTopOf="@id/btn_edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cst_owner">
+
+        <TextView
+            android:id="@+id/tv_dog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginBottom="11dp"
+            android:text="대표 견종"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:letterSpacing="-0.03"
+            android:lineSpacingExtra="6sp"
+            app:layout_constraintBottom_toTopOf="@+id/sp_dog"
+            app:layout_constraintStart_toEndOf="@id/iv_dog"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/sp_dog"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="9dp"
+            android:hint="견종"
+            android:maxLines="1"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:letterSpacing="-0.04"
+            android:lineSpacingExtra="8sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@drawable/btn_select"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sp_dog_age"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_dog" />
+
+        <EditText
+            android:id="@+id/sp_dog_age"
+            android:layout_width="65dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="156dp"
+            android:layout_marginBottom="9dp"
+            android:background="@drawable/btn_select"
+            android:gravity="center"
+            android:hint="나이"
+            android:maxLength="3"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/sp_dog"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_dog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="11dp"
+            app:layout_constraintBottom_toTopOf="@+id/sp_dog"
+            app:layout_constraintEnd_toStartOf="@+id/tv_dog"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dog_icon" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_edit"
+        android:layout_width="76dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="265dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/btn_color"
+        android:text="수정 완료"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#404040"
+        android:letterSpacing="-0.03"
+        android:lineSpacingExtra="7sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cst_dog" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+        android:layout_marginTop="17dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_edit" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cst_mycontent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="?attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divider2">
+
+
+        <TextView
+            android:id="@+id/tv_mycontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="11dp"
+            android:letterSpacing="-0.04"
+            android:lineSpacingExtra="8sp"
+            android:text="내가 쓴 글"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/iv_mycontent_next"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@id/iv_mycontent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/iv_mycontent"
+            android:layout_width="14dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="22dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/content" />
+
+        <ImageView
+            android:id="@+id/iv_mycontent_next"
+            android:layout_width="7dp"
+            android:layout_height="13dp"
+            android:layout_marginEnd="23dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/next" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cst_scrap"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:background="?attr/selectableItemBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cst_mycontent">
+
+        <TextView
+            android:id="@+id/tv_scrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="11dp"
+            android:letterSpacing="-0.04"
+            android:lineSpacingExtra="8sp"
+            android:text="스크랩(중고마켓)"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_scrap"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_scrap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/scrap" />
+
+        <ImageView
+            android:id="@+id/iv_scrap_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="23dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/next" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cst_appbar"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/et_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="18dp"
+            android:text="내 정보"
+            android:textStyle="normal"
+            android:textSize="19sp"
+            android:textColor="@color/black"
+            android:letterSpacing="-0.03"
+            android:lineSpacingExtra="3sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/back_profile"
+            android:layout_width="16dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="19dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back_icon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

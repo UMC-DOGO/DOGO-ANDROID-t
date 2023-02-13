@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/drawable/btn_color.xml" value="0.1845" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/drawable/btn_location.xml" value="0.1865" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/drawable/btn_select.xml" value="0.1845" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1865" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/drawable/introduce_box.xml" value="0.1" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/drawable/layout_stroke.xml" value="0.1845" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/drawable/layout_wt.xml" value="0.1255" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/drawable/shape_circle.xml" value="0.1845" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/layout/activity_main.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/layout/activity_main2.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/layout/activity_profile.xml" value="0.16" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/layout/fragment_cmnt.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/layout/fragment_loacatoin.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/layout/fragment_mc_community.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/layout/fragment_mc_market.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/layout/fragment_mkt.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/layout/fragment_mycontext.xml" value="0.264" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/layout/fragment_scrap.xml" value="0.264" />
+        <entry key="..\:/Users/82108/StudioProjects/Dogo_profile/app/src/main/res/menu/menu_bottomnav.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
